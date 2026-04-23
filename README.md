@@ -13,9 +13,9 @@ sudo apt update
 sudo apt install -y \
     git wget diffstat unzip texinfo gcc build-essential chrpath socat \
     cpio python3 python3-pip python3-pexpect xz-utils debianutils \
-    iputils-ping python3-git python3-jinja2 libegl1-mesa libsdl1.2-dev \
+    iputils-ping python3-git python3-jinja2 libsdl1.2-dev \
     xterm
-pip3 install kas
+sudo apt install kas
 ```
 
 ## Quick start
