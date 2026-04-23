@@ -5,7 +5,6 @@ header:
     - boot2qt/v6.8.7-lts.yml
 
 env:
-  PRODUCT_DESCRIPTION: ""
   PRODUCT_VERSION: "26.4.0"
   PRODUCT_VERSION_SUFFIX: "beta"
   PRODUCT_IMAGE_BRANCH: "mmc"
