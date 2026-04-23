@@ -8,7 +8,6 @@ env:
   PRODUCT_DESCRIPTION: ""
   PRODUCT_VERSION: "26.4.0"
   PRODUCT_VERSION_SUFFIX: "beta"
-  PRODUCT_VERSION_CODENAME: "Chasseral"
   PRODUCT_IMAGE_BRANCH: "release"
 
 local_conf_header:
@@ -19,7 +18,7 @@ local_conf_header:
 repos:
   meta-embi:
     url: https://github.com/Embi-OS/meta-embi
-    commit: "f363394d78bae7d412b60c36347ab31298f8957e"
+    commit: "5d62e6312d81e31ba6bcb33b5b2c9c03f2c0e358"
     path: sources/meta-embi
     layers:
       .:

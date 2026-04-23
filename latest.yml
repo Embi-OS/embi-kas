@@ -8,7 +8,6 @@ env:
   PRODUCT_DESCRIPTION: ""
   PRODUCT_VERSION: "0.0.0"
   PRODUCT_VERSION_SUFFIX: "alpha"
-  PRODUCT_VERSION_CODENAME: "Chasseral"
   PRODUCT_IMAGE_BRANCH: "dev"
 
 local_conf_header:
