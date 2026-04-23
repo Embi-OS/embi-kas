@@ -8,7 +8,7 @@ env:
   PRODUCT_DESCRIPTION: ""
   PRODUCT_VERSION: "26.4.0"
   PRODUCT_VERSION_SUFFIX: "beta"
-  PRODUCT_IMAGE_BRANCH: "release"
+  PRODUCT_IMAGE_BRANCH: "mmc"
 
 local_conf_header:
   embi-ecosystem: |

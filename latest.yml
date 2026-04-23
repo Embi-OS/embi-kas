@@ -8,7 +8,7 @@ env:
   PRODUCT_DESCRIPTION: ""
   PRODUCT_VERSION: "0.0.0"
   PRODUCT_VERSION_SUFFIX: "alpha"
-  PRODUCT_IMAGE_BRANCH: "dev"
+  PRODUCT_IMAGE_BRANCH: "mmc"
 
 local_conf_header:
   embi-ecosystem: |
