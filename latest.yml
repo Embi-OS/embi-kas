@@ -1,0 +1,25 @@
+header:
+  version: 14
+  includes:
+    - includes/base.yml
+    - boot2qt/v6.8.7-lts.yml
+
+env:
+  PRODUCT_DESCRIPTION: ""
+  PRODUCT_VERSION: "0.0.0"
+  PRODUCT_VERSION_SUFFIX: "alpha"
+  PRODUCT_VERSION_CODENAME: "Chasseral"
+  PRODUCT_IMAGE_BRANCH: "dev"
+
+local_conf_header:
+  embi-ecosystem: |
+    # embi-ecosystem latest commit
+    SRCREV:pn-embi-ecosystem = "${AUTOREV}"
+
+repos:
+  meta-embi:
+    url: https://github.com/Embi-OS/meta-embi
+    branch: main
+    path: sources/meta-embi
+    layers:
+      .:

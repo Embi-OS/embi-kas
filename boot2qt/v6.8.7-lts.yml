@@ -1,0 +1,71 @@
+header:
+  version: 14
+
+repos:
+  poky:
+    url: git://git.yoctoproject.org/poky
+    tag: yocto-5.0.15
+    path: sources/poky
+    layers:
+      meta:
+      meta-poky:
+  meta-mingw:
+    url: git://git.yoctoproject.org/meta-mingw
+    tag: yocto-5.0.15
+    path: sources/meta-mingw
+    layers:
+      .:
+  meta-virtualization:
+    url: git://git.yoctoproject.org/meta-virtualization
+    commit: "f92518e20530edfebca45e4170e11460949a5303"
+    path: sources/meta-virtualization
+    layers:
+      .:
+  meta-openembedded:
+    url: git://git.openembedded.org/meta-openembedded
+    commit: "2b26d30fc7f478f5735d514f0c1bc28f6a4148b6"
+    path: sources/meta-openembedded
+    layers:
+      meta-oe:
+      meta-python:
+      meta-networking:
+      meta-initramfs:
+      meta-multimedia:
+      meta-filesystems:
+  meta-clang:
+    url: https://github.com/kraj/meta-clang
+    commit: "5c602337ea1a80fb7217eeda04e396cf90587dca"
+    path: sources/meta-clang
+    layers:
+      .:
+  meta-boot2qt:
+    url: git://code.qt.io/yocto/meta-boot2qt
+    commit: "44ebc67c9d7940c1e91e4b090383a72aa8fa890e"
+    path: sources/meta-boot2qt
+    layers:
+      meta-boot2qt:
+      meta-boot2qt-distro:
+  meta-raspberrypi:
+    url: git://git.yoctoproject.org/meta-raspberrypi
+    commit: "2c646d29912dcc873469a57b1c207e1549c5094d"
+    path: sources/meta-raspberrypi
+    layers:
+      .:
+  meta-qt6:
+    url: git://code.qt.io/yocto/meta-qt6
+    tag: v6.8.7-lts
+    path: sources/meta-qt6
+    layers:
+      .:
+  meta-lts-mixins:
+    url: git://git.yoctoproject.org/meta-lts-mixins
+    commit: "a44882db02a0ed0f149371831bfbe067665eb42b"
+    path: sources/meta-lts-mixins
+    layers:
+      .:
+  meta-swupdate:
+    url: https://github.com/sbabic/meta-swupdate
+    commit: "81f4faa406e70dfa514e2f7642f97df33d3b84ae"
+    path: sources/meta-swupdate
+    layers:
+      .:
