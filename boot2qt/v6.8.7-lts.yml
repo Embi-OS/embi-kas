@@ -4,14 +4,14 @@ header:
 repos:
   poky:
     url: git://git.yoctoproject.org/poky
-    commit: "72983ac391008ebceb45edc7a8f0f6d5f4fe715c"
+    tag: yocto-5.0.15
     path: sources/poky
     layers:
       meta:
       meta-poky:
   meta-mingw:
     url: git://git.yoctoproject.org/meta-mingw
-    commit: "bd9fef71ec005be3c3a6d7f8b99d8116daf70c4f"
+    tag: yocto-5.0.15
     path: sources/meta-mingw
     layers:
       .:
@@ -53,7 +53,7 @@ repos:
       .:
   meta-qt6:
     url: git://code.qt.io/yocto/meta-qt6
-    commit: "2b8e3a50d8b8f484e4fc9ca4d6ec340acb15b724"
+    tag: v6.8.7-lts
     path: sources/meta-qt6
     layers:
       .:
