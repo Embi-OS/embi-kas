@@ -6,13 +6,13 @@ header:
 
 env:
   PRODUCT_VERSION: "26.4.0"
-  PRODUCT_VERSION_SUFFIX: "beta"
+  PRODUCT_VERSION_SUFFIX: "stable"
   PRODUCT_IMAGE_BRANCH: "mmc"
 
 local_conf_header:
   embi-ecosystem: |
     # embi-ecosystem v26.4.0
-    SRCREV:pn-embi-ecosystem = "${AUTOREV}"
+    SRCREV:pn-embi-ecosystem = "a68f735422e19b3a2809decb3e6b5986fb61e184"
 
 repos:
   meta-embi:
