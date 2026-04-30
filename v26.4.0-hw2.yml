@@ -1,0 +1,7 @@
+header:
+  version: 14
+  includes:
+    - v26.4.0.yml
+
+env:
+  DEFAULT_CONFIG_VERSION: "2"

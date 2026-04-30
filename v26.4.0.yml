@@ -17,7 +17,7 @@ local_conf_header:
 repos:
   meta-embi:
     url: https://github.com/Embi-OS/meta-embi
-    commit: "8a22b431c27bc97f89f0137e51891081e3c7577d"
+    commit: "0fb322815d82bdae1b038f342df91b7a3d73d861"
     path: sources/meta-embi
     layers:
       .:
