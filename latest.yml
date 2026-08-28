@@ -2,7 +2,7 @@ header:
   version: 14
   includes:
     - includes/base.yml
-    - boot2qt/v6.8.7-lts.yml
+    - boot2qt/v6.8.8-lts.yml
 
 env:
   PRODUCT_VERSION: "0.0.0"
